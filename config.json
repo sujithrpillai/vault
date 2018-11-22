@@ -1,0 +1,7 @@
+ui = true
+listener "tcp" {
+  address         = "vaultserver:8200"
+  api_addr        = "vaultserver:8200"
+  cluster_address = "vaultserver:8201"
+  tls_disable = 1
+}
