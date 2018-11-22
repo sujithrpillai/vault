@@ -13,7 +13,7 @@ This is a minimalized version of Vault container. (Use the official DockerHub im
 ### Build details
 * Clone this git repo
 ```shell
-git clone << Replace with Repo URL >>
+git clone https://github.com/sujithrpillai/vault.git
 ```
 * Build the docker images from scratch
 ```shell
