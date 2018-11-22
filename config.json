@@ -5,3 +5,6 @@ listener "tcp" {
   cluster_address = "vaultserver:8201"
   tls_disable = 1
 }
+storage "file" {
+  path = "/data"
+}
