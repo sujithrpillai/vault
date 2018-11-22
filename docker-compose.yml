@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  vaultserver:
+    image: vaultserver
+    ports:
+      - 8200:8200
+    volumes:
+      - /sujith/Docker/Vault/Vaultserver/config.json:/config.json
+    cap_add:
+    - IPC_LOCK
+    hostname: vaultserver
